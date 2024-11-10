@@ -21,6 +21,6 @@ namespace API.Models
         [Required]
         public string NomeCompleto { get; set; }
 
-        public string Tipo { get; set; }
+        public bool Admin { get; set; } = false;
     }
 }
