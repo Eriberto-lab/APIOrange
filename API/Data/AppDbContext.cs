@@ -8,6 +8,9 @@ namespace OrangeHub.API.Data
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
-        public DbSet<Usuario> Usuarios { get; set; }  
+        public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Apontamento> Apontamentos { get; set; }
+
+        public DbSet<Escritorio> Escritorios { get; set; }
     }
 }
